@@ -4,8 +4,8 @@
 #include <cstdint>
 #include <bit>
 
-#include <jace/include/game/Bitboard.h>
-#include <jace/include/game/Tables.h>
+#include <JACE/include/game/Bitboard.h>
+#include <JACE/include/game/Tables.h>
 
 namespace jace {
 

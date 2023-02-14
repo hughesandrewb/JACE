@@ -1,8 +1,8 @@
 #ifndef JACE_INCLUDE_GAME_SQUARE_H_
 #define JACE_INCLUDE_GAME_SQUARE_H_
 
-#include <jace/include/game/Direction.h>
-#include <jace/include/game/Color.h>
+#include <JACE/include/game/Direction.h>
+#include <JACE/include/game/Color.h>
 #include <cstdint>
 
 namespace jace {

@@ -1,12 +1,12 @@
 #ifndef JACE_INCLUDE_GAME_TABLES_H_
 #define JACE_INCLUDE_GAME_TABLES_H_
 
-#include <jace/include/game/Bitboard.h>
-#include <jace/include/game/rng.h>
-#include <jace/include/game/Square.h>
-#include <jace/include/game/MagicEntry.h>
-#include <jace/include/game/MagicNumbers.h>
-#include <jace/include/arch/arm.h>
+#include <JACE/include/game/Bitboard.h>
+#include <JACE/include/game/rng.h>
+#include <JACE/include/game/Square.h>
+#include <JACE/include/game/MagicEntry.h>
+#include <JACE/include/game/MagicNumbers.h>
+#include <JACE/include/arch/arm.h>
 
 #include <bit>
 #include <iostream>

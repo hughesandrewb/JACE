@@ -1,4 +1,4 @@
-#include <jace/include/game/Move.h>
+#include <JACE/include/game/Move.h>
 
 namespace jace {
 

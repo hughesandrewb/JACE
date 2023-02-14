@@ -1,4 +1,4 @@
-#include <jace/include/game/HistoryInfo.h>
+#include <JACE/include/game/HistoryInfo.h>
 
 namespace jace {
 

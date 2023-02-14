@@ -1,4 +1,4 @@
-#include <jace/include/game/Square.h>
+#include <JACE/include/game/Square.h>
 
 #include <iostream>
 

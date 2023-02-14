@@ -1,4 +1,4 @@
-#include <jace/include/game/Color.h>
+#include <JACE/include/game/Color.h>
 
 namespace jace {
 

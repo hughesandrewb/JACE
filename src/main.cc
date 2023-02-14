@@ -1,11 +1,11 @@
 // Copyright 2023 Andrew Hughes
-// jace/src/main.cc
+// JACE/src/main.cc
 
-#include <jace/include/game/Board.h>
-#include <jace/include/game/Color.h>
-#include <jace/include/game/Move.h>
-#include <jace/include/game/rng.h>
-#include <jace/include/game/MagicNumbers.h>
+#include <JACE/include/game/Board.h>
+#include <JACE/include/game/Color.h>
+#include <JACE/include/game/Move.h>
+#include <JACE/include/game/rng.h>
+#include <JACE/include/game/MagicNumbers.h>
 
 #include <iostream>
 #include <chrono>

@@ -1,9 +1,9 @@
 #ifndef JACE_INCLUDE_GAME_HISTORYINFO_H_
 #define JACE_INCLUDE_GAME_HISTORYINFO_H_
 
-#include <jace/include/game/Piece.h>
-#include <jace/include/game/Square.h>
-#include <jace/include/game/Bitboard.h>
+#include <JACE/include/game/Piece.h>
+#include <JACE/include/game/Square.h>
+#include <JACE/include/game/Bitboard.h>
 
 namespace jace {
 

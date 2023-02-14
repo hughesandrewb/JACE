@@ -1,7 +1,7 @@
 // Copyright 2023 Andrew Hughes
 // jace/src/Board.cc
 
-#include <jace/include/game/Board.h>
+#include <JACE/include/game/Board.h>
 
 #include <iostream>
 

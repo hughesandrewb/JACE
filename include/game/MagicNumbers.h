@@ -1,8 +1,8 @@
 #ifndef JACE_INCLUDE_GAME_MAGICNUMBERS_H_
 #define JACE_INCLUDE_GAME_MAGICNUMBERS_H_
 
-#include <jace/include/game/Tables.h>
-#include <jace/include/game/Bitboard.h>
+#include <JACE/include/game/Tables.h>
+#include <JACE/include/game/Bitboard.h>
 
 namespace jace {
 

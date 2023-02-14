@@ -1,4 +1,4 @@
-#include <jace/include/game/MagicNumbers.h>
+#include <JACE/include/game/MagicNumbers.h>
 
 namespace jace {
 

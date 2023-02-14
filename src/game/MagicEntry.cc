@@ -1,4 +1,4 @@
-#include <jace/include/game/MagicEntry.h>
+#include <JACE/include/game/MagicEntry.h>
 
 namespace jace {
 

@@ -1,15 +1,15 @@
 #ifndef JACE_INCLUDE_GAME_BOARD_H_
 #define JACE_INCLUDE_GAME_BOARD_H_
 
-#include <jace/include/game/Piece.h>
-#include <jace/include/game/Color.h>
-#include <jace/include/game/Square.h>
-#include <jace/include/game/Move.h>
-#include <jace/include/game/MoveFlags.h>
-#include <jace/include/game/Bitboard.h>
-#include <jace/include/game/HistoryInfo.h>
-#include <jace/include/arch/arm.h>
-#include <jace/include/game/Tables.h>
+#include <JACE/include/game/Piece.h>
+#include <JACE/include/game/Color.h>
+#include <JACE/include/game/Square.h>
+#include <JACE/include/game/Move.h>
+#include <JACE/include/game/MoveFlags.h>
+#include <JACE/include/game/Bitboard.h>
+#include <JACE/include/game/HistoryInfo.h>
+#include <JACE/include/arch/arm.h>
+#include <JACE/include/game/Tables.h>
 
 #include <cstdint>
 #include <string>

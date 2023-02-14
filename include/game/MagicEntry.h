@@ -1,7 +1,7 @@
 #ifndef JACE_INCLUDE_GAME_MAGICENTRY_H_
 #define JACE_INCLUDE_GAME_MAGICENTRY_H_
 
-#include <jace/include/game/Bitboard.h>
+#include <JACE/include/game/Bitboard.h>
 
 #include <cstdint>
 

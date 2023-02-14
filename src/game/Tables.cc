@@ -1,6 +1,6 @@
 // src/game/Tables.cc
 
-#include <jace/include/game/Tables.h>
+#include <JACE/include/game/Tables.h>
 #include <fstream>
 
 namespace jace {
