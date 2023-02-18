@@ -101,7 +101,7 @@ Board::Board(std::string fen) {
 }
 
 void Board::Display() {
-    int x, y, piece;
+    int x, y;
 
     std::string kPieceRepresentation[13] = {
         "\u265C",
@@ -394,11 +394,8 @@ size_t Board::GenerateLegalMoves(Move *moves) {
     }
 
     Bitboard pawns = board_bitboard_[current_player_ == Color::kWhite ? kWhitePawn : kBlackPawn];
-    Bitboard pawn_attacks = 0;
-    Bitboard pawn_push = 0;
     while (pawns) {
         uint16_t next_pawn = arch::PopBitScanForward(&pawns);
-        Bitboard pawn_bb = 1ULL << next_pawn;
 
         Bitboard pawn_attacks = kPawnAttacks[static_cast<int>(current_player_)][next_pawn] & enemy_pieces;
         while (pawn_attacks) {
