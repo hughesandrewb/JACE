@@ -14,9 +14,11 @@ all: $(MAIN)
 	@echo Compiled
 
 $(MAIN): $(OBJS)
+	@mkdir -p build
 	$(CC) -o build/$(MAIN) $(addprefix bin/,$(notdir $(OBJS)))
 
 .cc.o:
+	@mkdir -p bin
 	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o bin/$(notdir $@)
 
 clean:
